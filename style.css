@@ -1,0 +1,68 @@
+body{
+  background-color: black;
+  font-family: sans-serif;
+}
+h1{
+  color:white;
+  text-align: center;
+}
+
+.profile{
+  padding-left: 250px;
+  padding-right: 200px;
+}
+
+.profile__item{
+  /** color: red; **/
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 15px;
+  padding: 50px;
+  border: 5px solid: black;
+  float: left;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.profile__item:hover {
+    border: 5px solid white;
+}
+
+.button{
+  clear: both;
+  color: grey;
+  width: 200px;
+  height: 25px;
+  padding: .5em 1.5em;
+  border: 1px solid grey;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: .9em;
+  cursor: pointer;
+  text-transform: uppercase;
+
+}
+
+.button:hover {
+    border: 3px solid white;
+}
+
+#user1{
+  background-color: blue
+}
+
+#user2{
+  background-color: green
+}
+
+#user3{
+  background-color: red
+}
+
+#addUser{
+  background-color: black;
+  color: white;
+}
